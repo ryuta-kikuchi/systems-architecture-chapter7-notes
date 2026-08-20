@@ -644,37 +644,3 @@ Aircraft 自身に対して行われる operation として、概ね次が含ま
 この一段階を挟むことで、最初に思いついた solution へ固定されるリスクを減らし、より広い concept space を探索しやすくなる。
 
 さらに、選択した Concept の process が rich であれば、必要に応じて internal processes と concept fragments へ展開して Integrated Concept を構成し、ConOps によって実際の運用を記述する。これらが次章の Architecture 設計につながる。
-
----
-
-# 11. 発表時に特に使いやすい図表
-
-10-15分程度の輪読発表であれば、すべての図表を説明する必要はない。特に次の6点を使うと、章全体の流れを説明しやすい。
-
-| 順番 | 図表 | 説明する内容 |
-|---|---|---|
-| 1 | Figure 7.1 | Solution-Neutral Function の考え方 |
-| 2 | Figure 7.3 | Concept と Architecture の違い |
-| 3 | Figure 7.8 | specific process と form を組み合わせた Concept options |
-| 4 | Figure 7.10 | Intent / Concept の階層 |
-| 5 | Table 7.6 | Concept Fragment と Morphological Matrix |
-| 6 | Figure 7.13 | Aircraft の ConOps と Service view の違い |
-
-この6枚を、
-
-**Solution-Neutral Function → Concept options → （必要に応じて）Integrated Concept → Concept of Operations → Architecture**
-
-という一本のストーリーに沿って説明すると、本章の要点を伝えやすい。
-
----
-
-# 12. 原文参照上の注意
-
-アップロードされたPDFは書籍 p.172 の Section 7.6 Summary の途中で終了しており、Chapter 7 の末尾全文は収録されていない。
-
-また、収録範囲内には原文側の参照・表記の不整合と考えられる箇所がある。
-
-- p.171 の Home Network の送信データに関する説明では `Figure 7.9` と記されているが、内容上は Figure 7.12 を指していると考えられる。
-- p.168 本文と Table 7.8 では、Integrated Concept 2 の VOIP phone の接続方式について記述が一致していない。
-
-輪読時に該当箇所を参照する場合は、この点に注意する。
